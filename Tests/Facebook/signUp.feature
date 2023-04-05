@@ -22,6 +22,3 @@ Feature: Sign Up
             And I select "Female" as gender
             And I click "Sign Up" button
         Then I verify birthdate error is displayed
-
-
-    
