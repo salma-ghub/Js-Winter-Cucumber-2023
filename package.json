@@ -21,12 +21,19 @@
   "dependencies": {
     "@wdio/cli": "^8.6.7",
     "chai": "^4.3.7",
-    "moment": "^2.29.4"
+    "chrome": "^0.1.0",
+    "driver": "^1.0.0",
+    "geckodriver": "^3.2.0",
+    "moment": "^2.29.4",
+    "selenium-webdriver": "^4.8.2"
   },
   "devDependencies": {
-    "@wdio/allure-reporter": "^8.7.0",
+    "@wdio/allure-reporter": "^8.8.0",
+    "@wdio/browserstack-service": "^8.7.0",
     "@wdio/cucumber-framework": "^8.6.6",
+    "@wdio/firefox-profile-service": "^8.7.0",
     "@wdio/local-runner": "^8.6.7",
+    "@wdio/selenium-standalone-service": "^8.7.0",
     "chromedriver": "^111.0.0",
     "wdio-chromedriver-service": "^8.1.1",
     "wdio-wait-for": "^3.0.2"
